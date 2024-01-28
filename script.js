@@ -2,248 +2,100 @@ const quizData = {
     questions: [
       {
         question:
-          'What type of chemical bond involves the sharing of electrons between atoms?',
+          'Which of the following is NOT a process involved in the carbon cycle?',
         options: [
-          'Ionic bond',
-          'Covalent bond',
-          'Metallic bond',
-          'Van der Waals bond',
+          'Photosynthesis',
+          'Respiration',
+          'Transpiration',
+          'Combustion',
         ],
-        correct_answer: 'Covalent bond',
+        correct_answer: 'Transpiration',
       },
       {
         question:
-          'Which chemical bond is formed by the transfer of electrons from one atom to another?',
+          'What is the primary source of carbon dioxide in the atmosphere?',
         options: [
-          'Van der Waals bond',
-          'Covalent bond',
-          'Metallic bond',
-          'Ionic bond',
+          'Burning of fossil fuels',
+          'Respiration of animals',
+          'Decomposition of organic matter',
+          'Volcanic eruptions',
         ],
-        correct_answer: 'Ionic bond',
+        correct_answer: 'Burning of fossil fuels',
       },
       {
-        question: 'In a covalent bond, how are electrons shared between atoms?',
-        options: ['Evenly', 'Unevenly', 'Randomly', 'Periodically'],
-        correct_answer: 'Evenly',
+        question: 'Which organism plays a key role in turning atmospheric carbon into organic compounds?',
+        options: ['Trees', 'Bacteria', 'Humans', 'Fish'],
+        correct_answer: 'Bacteria',
       },
       {
         question:
-          'What is the name of the force that holds ions together in an ionic bond?',
+          'What happens to carbon stored in fossil fuels when they are burned for energy?',
         options: [
-          'Covalent force',
-          'Electrostatic force',
-          'Van der Waals force',
-          'Metallic force',
+          'It is released into the atmosphere as CO2',
+          'It is converted into oxygen',
+          'It is stored in the soil',
+          'It is absorbed by oceans',
         ],
-        correct_answer: 'Electrostatic force',
+        correct_answer: 'It is released into the atmosphere as CO2',
       },
       {
         question:
-          'Identify the type of bond in which electrons are not shared equally, creating partial charges.',
+          'What process returns carbon from dead organisms to the atmosphere?',
         options: [
-          'Nonpolar covalent bond',
-          'Polar covalent bond',
-          'Ionic bond',
-          'Metallic bond',
+          'Photosynthesis',
+          'Respiration',
+          'Decomposition',
+          'Evaporation',
         ],
-        correct_answer: 'Polar covalent bond',
+        correct_answer: 'Decomposition',
       },
       {
         question:
-          'What is the significance of electronegativity in chemical bonding?',
+          'Which of the following is a natural carbon sink?',
         options: [
-          'Speed of bonding',
-          'Size of atoms',
-          'Bond strength',
-          'Electron attraction',
+          'Oceans',
+          'Landfills',
+          'Fossil fuel plants',
+          'Factories',
         ],
-        correct_answer: 'Electron attraction',
+        correct_answer: 'Oceans',
       },
       {
-        question: 'In a metallic bond, what is shared between metal atoms?',
-        options: ['Protons', 'Neutrons', 'Electrons', 'Positrons'],
-        correct_answer: 'Electrons',
+        question: 'How does deforestation affect the carbon cycle?',
+        options: ['It increases atmospheric carbon dioxide levels', 'It decreases atmospheric oxygen levels', 'It has no effect on the carbon cycle', 'It increases the rate of photosynthesis'],
+        correct_answer: 'It increases atmospheric carbon dioxide levels',
       },
       {
-        question: "Define the term 'polar covalent bond.'",
+        question: "What role do oceans play in the carbon cycle?",
         options: [
-          'Unequal electron sharing',
-          'No electron sharing',
-          'Metal-metal bonding',
-          'Complete electron transfer',
+          'They absorb carbon dioxide from the atmosphere',
+          'They release carbon dioxide into the atmosphere',
+          'They produce carbon dioxide through respiration',
+          'They store carbon dioxide underground',
         ],
-        correct_answer: 'Unequal electron sharing',
+        correct_answer: 'They absorb carbon dioxide from the atmosphere',
       },
       {
         question:
-          'What is a diatomic molecule, and how is it related to chemical bonding?',
+          'Which human activity has contributed most to the increase in atmospheric carbon dioxide levels?',
         options: [
-          'Single atom molecule',
-          'Double atom molecule',
-          'Two-atom molecule',
-          'Multi-atom molecule',
+          'Industrialization',
+          'Agriculture',
+          'Deforestation',
+          'Transportation',
         ],
-        correct_answer: 'Two-atom molecule',
+        correct_answer: 'Industrialization',
       },
       {
         question:
-          'How does a double bond differ from a single bond in molecular structures?',
+          'What is the main consequence of an imbalance in the carbon cycle?',
         options: [
-          'More electrons shared',
-          'Fewer electrons shared',
-          'Different atoms involved',
-          'No difference',
+          'Increased biodiversity',
+          'Global warming',
+          'Ozone depletion',
+          'Acid rain',
         ],
-        correct_answer: 'More electrons shared',
-      },
-      {
-        question:
-          'Name the bond formed between hydrogen and oxygen in a water molecule.',
-        options: [
-          'Covalent bond',
-          'Ionic bond',
-          'Metallic bond',
-          'Hydrogen bond',
-        ],
-        correct_answer: 'Covalent bond',
-      },
-      {
-        question: 'Explain the concept of resonance in chemical bonding.',
-        options: [
-          'Transfer of electrons',
-          'Multiple valid structures',
-          'Ionic bonding',
-          'Metallic bonding',
-        ],
-        correct_answer: 'Multiple valid structures',
-      },
-      {
-        question:
-          'What role do valence electrons play in the formation of chemical bonds?',
-        options: [
-          'Determine chemical properties',
-          'Stabilize atoms',
-          'Form ionic bonds',
-          'Exist in the nucleus',
-        ],
-        correct_answer: 'Determine chemical properties',
-      },
-      {
-        question:
-          "Define the term 'ionic radius' and its significance in ionic bonding.",
-        options: ['Atomic size', 'Electron size', 'Ion size', 'Proton size'],
-        correct_answer: 'Ion size',
-      },
-      {
-        question:
-          'How does the VSEPR theory explain molecular shapes in covalent compounds?',
-        options: [
-          'Predicts bond angles',
-          'Determines bond strength',
-          'Describes electron orbitals',
-          'Indicates electron speed',
-        ],
-        correct_answer: 'Predicts bond angles',
-      },
-      {
-        question:
-          'Identify the bond angle in a molecule with a tetrahedral molecular geometry.',
-        options: ['90 degrees', '109.5 degrees', '120 degrees', '180 degrees'],
-        correct_answer: '109.5 degrees',
-      },
-      {
-        question: 'What is the difference between a sigma bond and a pi bond?',
-        options: [
-          'Single bond type',
-          'Double bond type',
-          'Electron distribution',
-          'Bond strength',
-        ],
-        correct_answer: 'Electron distribution',
-      },
-      {
-        question:
-          "Explain the term 'dipole moment' in the context of chemical bonding.",
-        options: [
-          'Charge separation',
-          'Bond length',
-          'Atomic mass',
-          'Bond energy',
-        ],
-        correct_answer: 'Charge separation',
-      },
-      {
-        question:
-          'How do London dispersion forces contribute to intermolecular attractions?',
-        options: [
-          'Electron repulsion',
-          'Temporary dipoles',
-          'Metallic bonding',
-          'Ionic interactions',
-        ],
-        correct_answer: 'Temporary dipoles',
-      },
-      {
-        question:
-          "Name the type of bond present in a protein's secondary structure, such as an alpha helix.",
-        options: ['Peptide bond', 'Ionic bond', 'Covalent bond', 'Metallic bond'],
-        correct_answer: 'Peptide bond',
-      },
-      {
-        question:
-          'Discuss the role of hybridization in the formation of chemical bonds.',
-        options: [
-          'Ion formation',
-          'Atomic stability',
-          'Electron sharing',
-          'Orbital overlap',
-        ],
-        correct_answer: 'Orbital overlap',
-      },
-      {
-        question:
-          'What is the octet rule, and how does it relate to chemical bonding?',
-        options: [
-          'Electron sharing principle',
-          'Atomic number principle',
-          'Valence electron rule',
-          'Stability guideline',
-        ],
-        correct_answer: 'Valence electron rule',
-      },
-      {
-        question:
-          'Describe the characteristics of metallic bonding and provide examples.',
-        options: [
-          'High electronegativity',
-          'Malleability and conductivity',
-          'Low melting points',
-          'Covalent characteristics',
-        ],
-        correct_answer: 'Malleability and conductivity',
-      },
-      {
-        question:
-          'Explain the concept of ionic compounds being electrically neutral.',
-        options: [
-          'Equal number of protons and neutrons',
-          'Equal number of electrons and protons',
-          'Equal number of neutrons and electrons',
-          'Equal number of positive and negative ions',
-        ],
-        correct_answer: 'Equal number of electrons and protons',
-      },
-      {
-        question:
-          'In a Lewis structure, how are lone pairs represented, and what is their significance in chemical bonding?',
-        options: [
-          'Dots around the nucleus',
-          'Lines between atoms',
-          'Cross symbols',
-          'Surrounded by brackets',
-        ],
-        correct_answer: 'Dots around the nucleus',
+        correct_answer: 'Global warming',
       },
     ],
   };
@@ -284,7 +136,7 @@ const quizData = {
     if (currentQuestionIndex < quizData.questions.length) {
       loadQuestion();
     } else {
-      quizContainer.innerHTML = `<h2>Quiz Completed!</h2><br><h3>${correct}/25 correct!</h3>`;
+      quizContainer.innerHTML = `<h2>Quiz Completed!</h2><br><h3>${correct}/10 correct!</h3>`;
     }
   }
   
